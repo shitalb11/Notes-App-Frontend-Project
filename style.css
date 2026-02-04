@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.add-note, .controls {
+  margin-bottom: 15px;
+}
+
+#notes.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+#notes.list {
+  display: block;
+}
+
+.note {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.note button {
+  margin-right: 5px;
+}
